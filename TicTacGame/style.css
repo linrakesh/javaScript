@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: blueviolet;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container h1 {
+  font-size: 64px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box {
+  flex-basis: 32%;
+  background-color: #fff;
+  height: 230px;
+  margin-bottom: 20px;
+  color: #000;
+  font-size: 180px;
+  text-align: center;
+}
+
+#new--game {
+  width: 900px;
+  height: 50px;
+  background-color: coral;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+#new--game:hover {
+  background-color: crimson;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 10px auto;
+}
+
+input {
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: 100%;
+  display: block;
+}
+
+input[type="file"] {
+  background-color: aqua;
+}
+input[type="submit"] {
+  background-color: red;
+  border: none;
+  color: #fff;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+#file-upload-button {
+  color: green;
+  padding: 15px;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.responsive {
+  width: 500px;
+  height: auto;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-normal">
+      Select Grade:
+      <select name="grade" id="grade" onchange="newGradeValue()">
+        <option value="10">1 Digit Numbers</option>
+        <option value="20">2 digit Up to 20</option>
+        <option value="30">2 digit Up to 30</option>
+        <option value="40">2 digit Up to 40</option>
+        <option value="50">2 digit Up to 50</option>
+        <option value="60">2 digit Up to 60</option>
+        <option value="70">2 digit Up to 70</option>
+        <option value="80">2 digit Up to 80</option>
+        <option value="90">2 digit Up to 90</option>
+        <option value="100">3 Digit Upto 100</option>
+        <option value="500">3 Digit upto 500</option>
+        <option value="9999">4 Digit</option>
+        <option value="99999">5 Digit</option>
+      </select>
+      Operation :
+      <select name="operator" id="operator" onchange="operationSelect()">
+        <option value="+">Addition</option>
+        <option value="-">Subtraction</option>
+        <option value="*">Multiplication</option>
+        <option value="/">Division</option>
+      </select>
+      Score : <span id="score">0</span>/<span id="total">0</span>
+    </div>
+    <div class="container">
+      <h1>Math Quiz</h1>
+    </div>
+    <div class="container">
+      <h1>
+        <span id="first">?</span><span id="operator--result"></span
+        ><span id="second">?</span> =
+        <span id="result">?</span>
+      </h1>
+    </div>
+    <div class="container">
+      <div class="box ans1">1</div>
+      <div class="box ans2">2</div>
+      <div class="box ans3">3</div>
+      <div class="box ans4">4</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
